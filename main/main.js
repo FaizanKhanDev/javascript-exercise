@@ -380,31 +380,35 @@
 
 
 // how to link one function to another function in js
-let myArray = [
-    "nadeem", 
-    "asim",
-    "imran",
-    "muneer",
-    "ali",
-    "hafiz",
+// let myArray = [
+//     "nadeem", 
+//     "asim",
+//     "imran",
+//     "muneer",
+//     "ali",
+//     "hafiz",
 
-]
+// ]
 
 
-const myFunction = (params) => {
-    for (let i = 0; i < myArray.length; i++) {
+// const myFunction = (params) => {
+//     for (let i = 0; i < myArray.length; i++) {
 
-        myAnotherFunction(myArray[i], i, params);
-        
+//         myAnotherFunction(myArray[i], i, params);
 
-    }
-}
 
-const myAnotherFunction = (ArrayItem, index, params) => {
-    if(ArrayItem ==  params) {
-        console.log(index, ArrayItem);
-    }
-}
+//     }
+// }
+
+// const myAnotherFunction = (ArrayItem, index, params) => {
+
+//     if(ArrayItem ==  params) {
+
+//         console.log(index, ArrayItem);
+
+//     }
+
+// }
 
 
 
