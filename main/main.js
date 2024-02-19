@@ -422,6 +422,46 @@
 
 
 
+    // API Calling Use hota hai]
+    // Total Api mei 5 methods hain
+        // GET  (kisi bhi server side sey data mangwane k liye use krtey hain)
+        // POST (new data server side py create krne k liye use krtey hain) (Edit/Update krne k liye use krtey hain)
+        // DELETE (delete krne k liye use krtey hain)
+   
+
+const myList = () => {
+    // RFC 
+    // Request for comments
+    let url = "https://jsonplaceholder.typicode.com/posts"
+    fetch(url, {
+        method:"GET",
+        headers: {
+            // authorization: `Bearer ${token}`,
+            ContentType: "application/json" 
+        },
+        body: JSON.stringify()
+    }).then((response) => {
+
+        response.json().then((value) => {
+
+            console.log(value);
+        })
+    } ).catch((error) => {
+
+        console.log(error);
+    })
+
+}
+
+// check kro methods kya ??
+// check kro k headers mei token kya hai
+// check kro k headers mei authorization kya hai
+// jo token aya hai wo verify kro
+// agr wo verify kro to wo token valid hai
+
+// check body mei kya hai?
+// han studentId
+// 5512 para hua hai agr hai toh wo dedo 
 
 
 
