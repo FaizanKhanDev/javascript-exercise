@@ -106,11 +106,16 @@
 
 // arthematic operators
 // + - * / %
-//  ( = Assign Operator)     
+//  ( = Assign Operator)  
+//    
 //   += -= *= /=  %/
 //  == === 
 // !=   !== 
 //  >   <    >=    <=
+
+// let myNewNumber = []; 
+
+
 
 
 // let extraNumber = 10;
@@ -429,29 +434,33 @@
         // DELETE (delete krne k liye use krtey hain)
    
 
-const myList = () => {
-    // RFC 
-    // Request for comments
-    let url = "https://jsonplaceholder.typicode.com/posts"
-    fetch(url, {
-        method:"GET",
-        headers: {
-            // authorization: `Bearer ${token}`,
-            ContentType: "application/json" 
-        },
-        body: JSON.stringify()
-    }).then((response) => {
+// const myList = () => {
+//     // RFC 
+//     // Request for comments
+//     let url = "https://jsonplaceholder.typicode.com/posts"
+//     fetch(url, {
+//         method:"GET",
+//         headers: {
+//             // authorization: `Bearer ${token}`,
+//             ContentType: "application/json" 
+//         },
+//         body: JSON.stringify()
+//     }).then((response) => {
 
-        response.json().then((value) => {
+//         response.json().then((value) => {
 
-            console.log(value);
-        })
-    } ).catch((error) => {
+//             console.log(value);
+//         })
 
-        console.log(error);
-    })
+//     } ).catch((error) => {
 
-}
+//         console.log(error);
+//     })
+
+// }
+
+
+
 
 // check kro methods kya ??
 // check kro k headers mei token kya hai
@@ -462,6 +471,78 @@ const myList = () => {
 // check body mei kya hai?
 // han studentId
 // 5512 para hua hai agr hai toh wo dedo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
